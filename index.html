@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta viewport="width=device-width, initial-scale=1.0">
+        <meta name="description" content="test">
+
+   <link rel="stylesheet" href="test.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="Script.js" defer></script>
+    </head>
+
+    <body>
+        <section class="todo-container">
+            <h1>TO-DO LIST</h1>
+
+            <form class="form-todo">
+                <input type="text" name="todo" class="text-cls" placeholder="Add your Task to the list" autocomplete="off" >
+                <input type="submit" id="b1" class="submit-cls" style="font-size: 30px; padding: 7px 40px 9px 40px; display: inline-block;"
+                value="Add">
+            </form>
+
+                 <!-- dashed separting line-->
+             
+                <br>
+               
+               <!--overall border covering three buttons-->
+                <div class="button-container">
+
+                
+                    
+                    <button id="b2" >List of all active Tasks</button>
+                
+                    <button id="b4"> Completed Tasks</button>
+                </div>
+            
+        
+
+            <ul class="todo-list">
+            <li>
+                <span class="text">Sample task</span>
+                <div class="todo-buttons">
+                    <div class="todo-btn done" id="complete">Complete</div>
+                    <div class="fa fa-edit" id="i1"></div>
+                    <div class="fa fa-trash-o" id="i2"></div>
+                    
+                </div>
+            </li>
+        </ul>
+    </section>
+
+       
+        
+
+    </body>
+</html>

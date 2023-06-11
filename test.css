@@ -1,0 +1,196 @@
+h1
+{
+    color: red;
+    font-size: 40px;
+    text-align:center;
+
+}
+body{
+    background: radial-gradient(
+        farthest-corner at 100% 100%,
+       cyan,
+       violet,
+       cyan,
+       darkviolet
+       );
+}
+
+
+
+
+#txt
+{
+    margin-left:37%;
+    font-size: 40px;
+}
+#b1{
+    padding:10px 15px 10px 15px;
+    background-color: rgb(241, 118, 212);
+    font-size: 20px;
+    color:white;
+}
+
+  #b2:hover {
+    /* Define the styles for the hovered buttons */
+    background-color: #f0f0f0;
+    color: #555;
+  }
+  #b3:hover {
+    /* Define the styles for the hovered buttons */
+    background-color: #f0f0f0;
+    color: black;
+  }
+  #b4:hover {
+    /* Define the styles for the hovered buttons */
+    background-color: #f0f0f0;
+    color: black;
+  }
+  #b2:focus{
+
+    background-color: rgb(6, 138, 6);
+    /*text color  webkit*/
+    animation: colorAnimation 5s infinite;
+    
+    }
+    @keyframes colorAnimation {
+        0% { color: red; }
+        25% { color: blue; }
+        50% { color: green; }
+        75% { color: orange; }
+        100% { color: purple; }
+      }
+      
+      
+      
+  #b3:focus{
+
+        background-color: darkblue;
+        color:black;
+        }
+  #b4:focus{
+
+            background-color:rgb(118, 241, 118);
+            color:black;
+            animation: colorAnimation 5s infinite;
+            }
+  
+  
+  
+  
+#b2
+{
+    /*center display*/
+    margin-left:25%;
+
+    padding:10px 15px 10px 15px;
+    background-color: rgb(118, 241, 118);
+    font-size: 20px;
+    color:black;
+    display:inline-block;
+    border:3px solid black;
+}
+    
+#b3
+{
+    /*center display*/
+    margin-left:35%;
+
+    padding:10px 15px 10px 15px;
+    background-color:rgb(118, 241, 118);
+    font-size: 20px;
+    color:black;
+    border:3px solid black;
+    display:inline-block;
+}
+#b4
+{
+    /*not getting diaply inline block*/
+    margin-left:25%;
+    padding:10px 15px 10px 15px;
+    background-color: rgb(118, 241, 118);
+    font-size: 20px;
+    color:black;
+    border:3px solid black;
+    display:inline-block;
+
+
+   
+}
+
+input[type="text"]
+{
+    /*increase width of box*/
+    width: 500px;
+    padding:15px 20px 15px 20px;
+    font-size: 20px;
+    border:1px solid black;
+    border-radius: 5px;
+    /*middle display*/
+    margin-left:10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+
+}
+/*Dashed line*/
+hr{
+    border: 1px dashed black;
+    width: 100%;
+    margin:0;
+    color:black
+}
+
+.todo-list{
+    text-align: left;
+    font-size: 2.8rem;
+    list-style-type: none;
+}
+.text-cls
+{
+    margin-left: -100px;
+}
+
+.todo-list li{
+    min-height: 2vh;
+    padding: 0.7rem;
+    background-color: white;
+    color: black
+    margin: 1rem auto 0 auto;
+    text-transform: capitalize;
+    max-width: 1000px;
+    font-size: 25px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:28%;
+    margin:20px auto
+}
+
+.todo-btn{
+    padding: 1rem 1rem;
+    /*move buttons to some left*/
+    background-color: white;
+    margin: 15px auto;
+    justify-content:space-around;
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 20px;
+}
+#i1
+{
+    margin-right: 25px;
+    font-size: 42px;
+}
+#i2
+{
+    font-size: 42px;
+}
+#complete
+{
+    color:white;
+    border-radius:2px;
+    background-color: green;
+}
